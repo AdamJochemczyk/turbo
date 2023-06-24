@@ -1,0 +1,3 @@
+{
+  "extends": "config/eslint-next.json" //eslint-config-custom to nazwa folderu w packages w jakim znajduje się plik eslint-next.json
+}
