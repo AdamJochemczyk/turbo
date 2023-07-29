@@ -8,8 +8,8 @@
   },
   "devDependencies": {
     "@turbo/gen": "^1.9.7",
+    "config": "*",
     "eslint": "^7.32.0",
-    "eslint-config-custom": "*",
     "prettier": "^2.5.1",
     "turbo": "^1.9.7"
   },
@@ -18,5 +18,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "next-auth": "^4.22.1"
+  }
 }
